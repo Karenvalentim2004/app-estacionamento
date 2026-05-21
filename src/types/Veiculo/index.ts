@@ -1,4 +1,7 @@
 export type Veiculo = {
-    placa: 'String',
-    entrada: 'Date'
+  placa: string
+  entrada: Date
+  saida?: Date
+  valor?: number
+  pago: boolean
 }
